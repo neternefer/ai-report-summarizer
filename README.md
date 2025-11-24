@@ -35,20 +35,23 @@ This project is designed to save time and reduce manual work for professionals w
 
 1. Clone the repository:
 
-    git clone https://github.com/yourusername/ai-report-summarizer.git
+    git clone - https://github.com/yourusername/ai-report-summarizer.git
+   
     cd ai-report-summarizer
 
-2. Create and activate a virtual environment:
+3. Create and activate a virtual environment:
 
     python -m venv .venv
+   
     source .venv/bin/activate  # Linux/Mac
+   
     .venv\Scripts\activate     # Windows
 
-3. Install dependencies:
+5. Install dependencies:
 
     pip install -r requirements.txt
 
-4. Configure Azure credentials in a .env file:
+6. Configure Azure credentials in a .env file:
 
     COMPUTER_VISION_ENDPOINT=https://<your-endpoint>.cognitiveservices.azure.com/
     COMPUTER_VISION_KEY=<your-key>
@@ -62,11 +65,11 @@ This project is designed to save time and reduce manual work for professionals w
     CONTAINER_NAME=<container-name>
     BLOB_NAME=<optional-blob-name>
 
-5. Running the App
+7. Running the App
 
     streamlit run app.py
 
-6. Upload a PDF or image via the sidebar
+8. Upload a PDF or image via the sidebar
 
     - Files are automatically validated, uploaded, and processed
 
@@ -74,7 +77,7 @@ This project is designed to save time and reduce manual work for professionals w
 
     - Azure OpenAI generates factual summaries from both text and image content
 
-7. Testing
+9. Testing
 
     pytest test_app.py
 
