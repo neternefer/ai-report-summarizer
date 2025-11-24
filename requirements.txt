@@ -1,0 +1,12 @@
+python-dotenv
+pytest
+pytest-mock
+pytest-benchmark
+azure-core
+azure-ai-vision-imageanalysis
+openai
+azure-storage-blob
+PyMuPDF
+msrest
+Pillow
+streamlit
