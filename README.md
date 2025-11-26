@@ -35,7 +35,7 @@ This project is designed to save time and reduce manual work for professionals w
 
 1. Clone the repository:
 
-    git clone - https://github.com/yourusername/ai-report-summarizer.git
+    git clone - https://github.com/neternefer/ai-report-summarizer.git
    
     cd ai-report-summarizer
 
